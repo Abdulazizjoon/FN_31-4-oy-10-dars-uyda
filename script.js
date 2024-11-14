@@ -192,119 +192,12 @@
 // teng(arr)
 
 
-//18-masala
-let arr=[]
-
-
-
-
-
-
-
-
-
-
-
-//3-masala
+//19-masala
 // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-//   let sum = arr[0];
-
-// function toqElement(a) {
-//   for (let i = 0; i < a.length; i++) {
-//     if (a[i]<=sum) {
-//         sum=a[i]
-//     }
-//     }
-//     console.log(sum);
-// }
-// let res = toqElement(arr);
-
-//4-masala
-// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-// function index(a) {
-//     let sum = 0
-//     let ind=0
-//     a.forEach((value, index, a) => {
-//         if (value>sum) {
-//             sum = value
-//             ind=index
-//         }
-//     });
-//     console.log(ind);
-// }
-// index(arr)
-
-//5-masala
-// let arr = [1, 2, -3, 4, 5, -6, 7, 8, -9];
-// function maxMinus(a) {
-//     let sum=0
-//     for (let i = 0; i < a.length; i++) {
-//         if (a[i]>0) {
-//             sum+=a[i]
-//         }
-//     }
-//     console.log(sum);
-// }
-// maxMinus(arr)
-
-//6-masala
-// let arr = [1, 2, -3, 4, 5, -6, 7, 8, -9];
-// function allmanfiy(a) {
-//     let sum=0
-//     a.forEach(value => {
-//         if (value<0) {
-//             sum+=1
-//         }
-//     });
-//     console.log(sum);
-
-// }
-// allmanfiy(arr)
-
-//7-masala
-// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-// function number(a) {
-//     let sum=0
-//     a.forEach(element => {
-//         if (element%2==0) {
-//             sum+=1
-//         }
-//     });
-//     console.log(sum);
-// }
-// number(arr)
-
-//8-masala
-// let arr = [1, 2, 3, 4, 5]
 // function num(a) {
-//     for (let i = 0; i < a.length; i++) {
-//         if (a[i]%2==1) {
-//             a[i]+=1
-//         }
-//     }
-// console.log(arr);
-
+//   let newarr = a.map(function (value) {
+//     return (value = value * 2);
+//   });
+//   console.log(newarr);
 // }
-// num(arr)
-
-//9-masala
-// let arr = [1, 2, 3, 4, 5, 6]
-// let newarr = [] ;
-// function rever(a) {
-
-//     for (let i = a.length; i >= 0; i--) {
-//         newarr += a[i]
-//     }
-// }
-// rever(arr)
-// console.log(newarr);
-
-//10-masala
-// let arr1 = [1, 2, 3]
-// let arr2 = [3, 4, 5]
-// function dublikat() {
-//     let sum = 0
-//     arr1.forEach(element => {
-//         arr1
-//     });
-// }
+// num(arr);
