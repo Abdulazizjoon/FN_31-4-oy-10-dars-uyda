@@ -216,3 +216,27 @@
 
 //Obyektlarga oid
 //1-masala
+// let ob = { a: 10, b: 20, c: 5 };
+// function obyekt(a) {
+//     let sum=0
+//     for (const key of a) {
+//         sum+=key
+//     }
+// }
+// obyekt(ob)
+
+//2-masala
+// let obj = {
+//     a: 1,
+//     b:2,
+//     c:3,
+//     d:4
+// };
+// function reverce(arr) {
+//     let res = {}
+//     for (const key in arr) {
+//        res[arr[key]]=key
+//     }
+//     return res
+// }
+// console.log(reverce(obj));
