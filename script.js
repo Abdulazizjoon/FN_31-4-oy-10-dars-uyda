@@ -201,3 +201,18 @@
 //   console.log(newarr);
 // }
 // num(arr);
+
+
+//20-masala
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// function num(a) {
+//   let newarr = a.some(function (value) {
+//     return a<0
+//   });
+//   console.log(newarr);
+// }
+// num(arr);
+
+
+//Obyektlarga oid
+//1-masala
