@@ -240,3 +240,22 @@
 //     return res
 // }
 // console.log(reverce(obj));
+
+
+//7-masala
+// let obj = {
+//     b:2,
+//     c:3,
+//     d:4
+// };
+// function reverce(arg) {
+//     let res = {}
+//     for (const key in arg) {
+//         if (typeof arg[key]=='number') {
+//             arg[key]*=2
+//         }
+//         res[key]=arg[key]
+//     }
+//     return res;
+// }
+// console.log(reverce(obj));
